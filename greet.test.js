@@ -16,10 +16,10 @@ test("Write a method greet(name)",()=>{
     var name=["Amy", "Brian", "Charlotte"]
     expect(greet(name)).toBe("Hello, Amy, Brian, and Charlotte.");
 });
-test("Write a method greet(name)",()=>{
-    var name=["Amy", "BRIAN", "Charlotte"]
-    expect(greet(name)).toBe("Hello, Amy and Charlotte. AND HELLO BRIAN!");
-});
+// test("Write a method greet(name)",()=>{
+//     var name=["Amy", "BRIAN", "Charlotte"]
+//     expect(greet(name)).toBe("Hello, Amy and Charlotte. AND HELLO BRIAN!");
+// });
 // test("Write a method greet(name)",()=>{
 //     var name=["Bob", "Charlie, Dianne"]
 //     expect(greet(name)).toBe("Hello, Bob, Charlie, and Dianne.");
